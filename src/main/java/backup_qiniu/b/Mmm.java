@@ -114,6 +114,7 @@ public class Mmm {
 		String baseUrl = savePath;
 //		System.getProperty("savePath");
 		File imageFile = new File(baseUrl + fileName);
+		System.out.println(imageFile);
 		if(!imageFile.exists()){
 			imageFile.getParentFile().mkdirs();
 		}
