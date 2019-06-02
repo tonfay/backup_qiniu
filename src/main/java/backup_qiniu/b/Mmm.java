@@ -31,8 +31,8 @@ public class Mmm {
 		// 构造一个带指定Zone对象的配置类
 		Configuration cfg = new Configuration(Zone.zone0());
 		// ...其他参数参考类注释
-		String accessKey = System.getProperty("accessKey");//"vUlz_retu6yaHqyQZ3W1PTEymdc5giLwRRMjFF1E";
-		String secretKey = System.getProperty("secretKey");//"OukY-e1LMACPJvEO_aLU2A7cneq_0MbQ7HycYi9W";
+		String accessKey = System.getProperty("accessKey");
+		String secretKey = System.getProperty("secretKey");
 		String bucket = System.getProperty("bucket");//"blog";
 		String visitHost = System.getProperty("visitHost");//公网访问路径
 		String savePath = System.getProperty("savePath");//保存本地路径,/结尾
